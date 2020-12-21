@@ -1,0 +1,33 @@
+o sistema tem como objetivo gerenciar torneios de e-sports,
+monitorar regioes e campeonatos existente em cada regiao, os
+times participantes, seus integrantes e patrocinois.
+ele tambem possuiu as informacoes de cada jogo como genero,
+objetivo, criadores e objetos em cada jogo que podem ser
+armas ou personagens que possuem descricoes como vida, dano 
+entre outro.
+
+o sistema se inicia com a inclusao de um jogo o qual recebe
+informacoes como genero, desenvolvedores, ditribuidora. Depois
+inserimos informacoes sobre os obejtos dos jogo, para ter uma
+noçao da capacidade de cada jogo, esses objetos recebem 
+informacoes dependendo de do jogo, se for um jogo do genero
+MOBA ele recebe informacoes como vida,dano, resistencia de cada
+personagem do jogo, se for um jogo estilo FPS, ele recebe 
+informacoes como dano, capacidade de municao, tempo de recarga
+entre outros que podem ser adicionados.
+apos essas informcaoes podemos comecar a criar as regioes de 
+cada servidor com as informacoes de seus pasises integrantes
+logo podemos inciar a incersao de campeonatos e seus times 
+participantes, com uma maximo dependente do campeonato e do
+jogo. Cada campeonato tem a sua devida premiacao que possuiu
+valor em dinherio real e em dinheiro ficticio dependente do
+jogo.
+finalmente comecamos a insercao dos times como o nome de cada
+e o numero de integrantes. apos isso inserrirmos o jogadores
+um por um com informacoes como posicao no time, objeto do jogo
+que ele possuiu maior dominio, seu nome e seu nickname. caso 
+o time tenha patrocinio podemos colocar qual o nome do
+patrocinio e qual o valor de cada.
+com isso finalizamos a incercao no banco de dados e podemos 
+comecar a manuzear ele, para editalos, excluilos ou adicionar
+um novo.
